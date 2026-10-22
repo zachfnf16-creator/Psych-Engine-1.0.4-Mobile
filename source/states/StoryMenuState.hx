@@ -254,17 +254,16 @@ class StoryMenuState extends MusicBeatState
 			}
 
 			if (controls.UI_RIGHT) {
-                                rightArrow.animation.play('press');
-                        } else {
-                                rightArrow.animation.play('idle');
-                        }
-			}
+    rightArrow.animation.play('press');
+} else {
+    rightArrow.animation.play('idle');
+}
 
-			if (controls.UI_LEFT) {
-				leftArrow.animation.play('press');
-			} else {
-				leftArrow.animation.play('idle');
-			}
+if (controls.UI_LEFT) {
+    leftArrow.animation.play('press');
+} else {
+    leftArrow.animation.play('idle');
+}
 
 			if (controls.UI_RIGHT_P) {
 				changeDifficulty(1);
