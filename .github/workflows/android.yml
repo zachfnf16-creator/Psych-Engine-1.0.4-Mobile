@@ -34,8 +34,8 @@ jobs:
           java-version: 17
 
       - name: Setup Android SDK
-        uses: android-actions/setup-android@v2
-
+        uses: android-actions/setup-android@v3
+  
       - uses: krdlab/setup-haxe@master
         with:
           haxe-version: 4.3.4
